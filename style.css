@@ -1,39 +1,34 @@
-html {
-  background-color: hsl(212, 45%, 89%);
-  display: flex;
-  font-family: "Outfit", sans-serif;
-  height: 100vh;
-  justify-content: center;
-  text-align: center;
-}
-p {
+p { 
   color: hsl(220, 15%, 55%);
-  font-size: 15px;
-  font-weight: 400;
+  margin-bottom: 1rem;
 }
 
-h2 {
+h1 {
   color: hsl(218, 44%, 22%);
-  font-weight: 700;
+  font-size: 1em;
 }
 
 body {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
   flex-direction: column;
+  font-family: "Outfit", sans-serif;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
 }
 
 .container {
   background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
-  padding: 13px;
-  width: 260px;
+  padding: 16px;
+  max-width: 320px;
 }
 
 .container-image__qr {
   border-radius: 10px;
-  width: 260px;
+  max-width: 320px;
 }
 
 .attribution {
